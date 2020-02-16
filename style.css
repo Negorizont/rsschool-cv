@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.header__name {
+    margin-bottom: 20px;
+}
+
+.header__photo {
+    width: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header__photo img{
+    width: 100px;
+}
+
+.block {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.title, h1, h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.contacts__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
